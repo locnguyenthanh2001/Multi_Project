@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/Humidity"
+        android:text="70%"
+
+        android:gravity="center"
+        android:textColor="#191919"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="0%"
+        app:layout_marginTopPercent="16%"
+        app:layout_widthPercent="35%" />
+
+    <TextView
+
+        android:id ="@+id/Temperature"
+        android:text="35°C"
+
+        android:textSize="20dp"
+        android:textColor="#191919"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="33%"
+        app:layout_marginTopPercent="14%"
+        />
+
+    <TextView
+
+        android:id ="@+id/pH"
+        android:text="7.5"
+
+        android:textSize="20dp"
+        android:textColor="#191919"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="70%"
+        app:layout_marginTopPercent="14%"
+        />
+
+
+
+
+    <TextView
+        android:text="CROP 1"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+
+
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="0%"
+        />
+
+    <TextView
+        android:text="Predicted Harvest Date:"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="35%"
+        app:layout_marginTopPercent="50%"
+        />
+
+    <TextView
+        android:text="8 March 2022"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="10%"
+        app:layout_marginStartPercent="40%"
+        app:layout_marginTopPercent="55%"
+        />
+
+
+    <TextView
+        android:text="Warning"
+
+        android:background="#79cdcd"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="70%"
+        />
+
+    <TextView
+        android:text="Diseases:"
+
+        android:background="#79cdcd"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="75%"
+        />
+
+    <TextView
+        android:id ="@+id/txtDisPet"
+        android:text="ID:"
+
+        android:background="#79cdcd"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="80%"
+        />
+
+    <TextView
+        android:text="Pests:"
+
+        android:background="#79cdcd"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="85%"
+        />
+    <TextView
+
+        android:id ="@+id/txtPetID"
+        android:text="ID:"
+
+        android:background="#79cdcd"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="5%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="90%"
+        />
+
+
+
+    <ImageView
+        android:src="@drawable/temp"
+        android:scaleType="fitCenter"
+
+
+        app:layout_widthPercent="9%"
+        app:layout_heightPercent="10%"
+        app:layout_marginStartPercent="45%"
+        app:layout_marginTopPercent="13%"
+        />
+    <ImageView
+        android:src="@drawable/humid"
+        android:scaleType="fitCenter"
+
+        app:layout_widthPercent="9%"
+        app:layout_heightPercent="10%"
+        app:layout_marginStartPercent="11%"
+        app:layout_marginTopPercent="13%"
+        />
+
+    <ImageView
+    android:src="@drawable/ph"
+    android:scaleType="fitCenter"
+
+
+    app:layout_widthPercent="9%"
+    app:layout_heightPercent="10%"
+    app:layout_marginStartPercent="80%"
+    app:layout_marginTopPercent="13%"
+    />
+
+    <ImageView
+        android:src="@drawable/harvest"
+        android:scaleType="fitCenter"
+
+
+        app:layout_widthPercent="20%"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="50%"
+        />
+
+
+
+
+    <pl.pawelkleczkowski.customgauge.CustomGauge
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="1%"
+        app:layout_marginTopPercent="10%"
+        app:gaugePointStartColor="#5DB075"
+        app:gaugePointEndColor="#5DB075"
+        app:gaugeStrokeColor="#5DB075"
+        app:gaugePointSize="6"
+        app:gaugeStartAngle="135"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeWidth="5dp"
+        app:gaugeStartValue="0"
+        app:gaugeEndValue="100"
+        app:gaugeSweepAngle="360" />
+
+    <pl.pawelkleczkowski.customgauge.CustomGauge
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="35%"
+        app:layout_marginTopPercent="10%"
+        app:gaugePointStartColor="#5DB075"
+        app:gaugePointEndColor="#5DB075"
+        app:gaugeStrokeColor="#5DB075"
+        app:gaugePointSize="6"
+        app:gaugeStartAngle="135"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeWidth="5dp"
+        app:gaugeStartValue="0"
+        app:gaugeEndValue="100"
+        app:gaugeSweepAngle="360" />
+
+    <pl.pawelkleczkowski.customgauge.CustomGauge
+        app:layout_widthPercent="30%"
+        app:layout_heightPercent="20%"
+        app:layout_marginStartPercent="70%"
+        app:layout_marginTopPercent="10%"
+        app:gaugePointStartColor="#5DB075"
+        app:gaugePointEndColor="#5DB075"
+        app:gaugeStrokeColor="#5DB075"
+        app:gaugePointSize="6"
+        app:gaugeStartAngle="135"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeWidth="5dp"
+        app:gaugeStartValue="0"
+        app:gaugeEndValue="100"
+        app:gaugeSweepAngle="360" />
+</android.support.percent.PercentRelativeLayout>
